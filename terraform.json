@@ -1,0 +1,19 @@
+{
+    "version": "0.8.0",
+    "disable_managed_file_path": false,
+    "deployments": [
+        {
+            "namespace": "devops",
+            "application": "jenkins",
+            "component": "terrform",
+            "environment": {
+                "dev": {
+                    "aws_account_id": "576216830216",
+                    "aws_region": "us-east-1",
+                    "auto_deploy": false,
+                    "auto_approve": false
+                }
+            }
+        }
+    ]
+}
